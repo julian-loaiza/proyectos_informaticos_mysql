@@ -1,5 +1,8 @@
 -- schema.sql (MySQL 8.0+)
 
+
+USE proyectos_informaticos;
+
 -- Limpieza
 DROP TRIGGER IF EXISTS tr_docente_after_update;
 DROP TRIGGER IF EXISTS tr_docente_after_delete;

@@ -1,4 +1,5 @@
 -- Inserciones directas opcionales (sin SP)
+USE proyectos_informaticos;
 
 INSERT INTO docente (numero_documento, nombres, titulo, anios_experiencia, direccion, tipo_docente)
 VALUES ('CC3001','Jorge Torres','MSc. Ing. Software',8,'Cra 45 # 12-34','Tiempo completo');
